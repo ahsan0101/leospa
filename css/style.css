@@ -1,0 +1,631 @@
+/* ======================= Font File link ======================== */
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../font/Poppins-Regular.woff') format(woff);
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../font/Poppins-Bold.woff') format(woff);
+    font-style: normal;
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Rufina-Bold';
+    src: url('../font/Rufina-Bold.woff') format(woff);
+    font-style: normal;
+    font-weight: 700;
+}
+/* ======================= Font File link ======================== */
+/* ======================= Font File link ======================== */
+:root {
+    --primaryColor:#293156 ;
+    --secondaryColor: #ff817e;
+    --title-Font-Family: 'Rufina-Bold', serif;
+    --text-Font-Family: 'Poppins-Regular', serif;
+}
+/* ======================= Font File link ======================== */
+/* ======================= Common CSS Start ======================== */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth !important ;
+    transition: all .3s ease-in-out;
+}
+body {
+    color: #6c6c6f;
+    background-color: #fff;
+    font-family: var(--text-Font-Family);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 27px;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--title-Font-Family);
+    font-weight: 700;
+    color: #1e2528;
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    outline: 0px;
+  }
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+section {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* ======================= Common CSS End ======================== */
+/*  */
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+/* Change navbar styling on scroll */
+.navbar {
+    transition: all 0.4s;
+}
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.menu {}
+.menu ul {}
+.menu ul li {}
+.menu ul li a {
+    padding-left: 0 !important;
+    padding-bottom: 0;
+    padding-right: 80px !important;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+/*  */
+
+/* ================================== Banner Section Start Here ================================== */
+#banner {
+    background-image: url(../img/leaf.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-size: 12.5%;
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
+.spa-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 44%;
+}
+.spa-img img {
+    width: 100%;
+}
+.banner-content {}
+.banner-content span {
+    display: block;
+    font-family: var(--title-Font-Family);
+    color: var(--secondaryColor);
+    padding-bottom: 20px;
+    letter-spacing: 2.5px;
+}
+.banner-content h1 {
+    font-size: 55px;
+    padding-bottom: 20px;
+}
+.banner-content p {
+    padding-bottom: 20px;
+}
+.banner-btn {
+    font-weight: 700;
+    border: 1px solid var(--secondaryColor);
+    background: var(--secondaryColor);
+    color: white;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+.banner-btn:hover {
+    background: transparent;
+    border: 1px solid var(--secondaryColor);
+    color: var(--secondaryColor);
+}
+.banner-video {
+    margin-left: 15px;
+}
+.banner-video i {
+    background: antiquewhite;
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 50%;
+    text-align: center;
+    color: var(--secondaryColor);
+    margin-right: 15px;
+}
+/* ================================== Banner Section End Here ================================== */
+
+/* ================================== about Section Start Here ================================== */
+#about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.ab-flower-one {
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+.ab-flower-one img {}
+.ab-flower-two {
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+}
+.ab-flower-two img {}
+.ab-top-img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.ab-top-img img {
+    width: 65px;
+    margin: 0 auto;
+}
+.sub-title {
+    text-align: center;
+}
+.sub-title p {
+    font-family: var(--text-Font-Family);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    margin-bottom: 20px;
+}
+.main-title {
+    text-align: center;
+}
+.main-title h1 {
+    font-family: var(--title-Font-Family);
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.ab-details {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.ab-details p {
+    font-family: var(--text-Font-Family);
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.about-btn {
+    text-align: center;
+}
+.about-btn a {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid var(--secondaryColor);
+    background: var(--secondaryColor);
+    color: white;
+    letter-spacing: 3.5px;
+}
+.about-btn a:hover {
+    border: 1px solid var(--secondaryColor);
+    background: white;
+    color: var(--secondaryColor);
+}
+/* ================================== about Section End Here ================================== */
+
+/* ================================== Service Carousel Section Start Here ================================== */
+#service-carousel {}
+.ser-carousel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.ser-box {}
+.single-service {
+    position: relative;
+}
+.single-service-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background: var(--secondaryColor);
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease-in-out;
+}
+.single-service:hover .single-service-hover {
+    cursor: pointer;
+    opacity: .9;
+    visibility: visible;
+    transition: all .3s ease-in-out;
+}
+.ser-hover-icon {
+    width: 40px !important;
+    margin: 0 auto 20px;
+}
+.single-service-hover span {
+    font-family: var(--title-Font-Family);
+    font-weight: 700;
+    display: block;
+    color: white;
+}
+.owl-dots {
+    text-align: center;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    color: red;
+    border: none;
+    padding: 0px!important;
+    font: inherit;
+    width: 14px;
+    height: 14px;
+    background: blanchedalmond;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 3px;
+}
+/* ================================== Service Carousel Section End Here ================================== */
+
+/* ================================== Procedures Section Start Here ================================== */
+#procedures {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.pro-title {
+    text-align: center;
+}
+.pro-title h1 {
+    font-family: var(--title-Font-Family);
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.pro-details {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.pro-details p {
+    font-family: var(--text-Font-Family);
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.post {
+    border: 1px solid rgb(211, 208, 208);
+    padding: 30px;
+    text-align: center;
+}
+.post img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.post h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.post h4 a {
+    color: black;
+}
+.post p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.post-btn {
+    color: white;
+    background: var(--secondaryColor);
+    border: 1px solid var(--secondaryColor);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    padding: 10px 25px;
+}
+.post-btn:hover {
+    color: var(--secondaryColor);
+    background: transparent;
+    border: 1px solid var(--secondaryColor);
+}
+/* ================================== Procedures Section End Here ================================== */
+
+/* ================================== Testimonial Section Start Here ================================== */
+#testimonial {
+    padding-bottom: 80px;
+}
+.testi-caro {
+    border-top: 1px solid #ff817e2e;
+    border-bottom: 1px solid #ff817e2e;
+    padding: 20px 10px;
+}
+.single-caro {
+    text-align: center;
+}
+.single-caro img {
+    width: 59px !important;
+    margin: 0 auto 30px;
+}
+.tes-text {
+    margin-bottom: 30px;
+}
+.client-info {}
+.client-info img {
+    border-radius: 50%;
+}
+.client-des {}
+.client-des h5 {
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.client-des h5 span {
+    font-family: var(--text-Font-Family);
+    font-size: 16px;
+    color: #b3b3b3;
+    letter-spacing: 2.5px;
+}
+/* ================================== Testimonial Section End Here ================================== */
+
+/* ================================== Experienced Team Area Start Here ================================== */
+#team {}
+.team-sec-title {
+    font-size: 42px;
+    margin-bottom: 32px;
+    text-transform: capitalize;
+}
+.team-sec-text {
+    color: #888;
+    margin-bottom: 32px;
+}
+.single-member {
+    position: relative;
+    width: 100%;
+}
+.single-member img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.member-info {
+    background-color: #fff;
+    -webkit-box-shadow: 0 5px 20px #f0f0f0;
+    box-shadow: 0 5px 20px #f0f0f0;
+    max-width: calc( 100% - 60px);
+    margin: -50px auto 0;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    z-index: 1;
+}
+.member-info h4 {
+    color: #263a41;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+.member-info span {
+    display: block;
+    margin-bottom: 15px;
+}
+.mem-social {
+    margin-top: -30px;
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+.mem-social a {
+    border: 1px solid #30383b;
+    border-radius: 50%;
+    color: #30383b;
+    display: inline-block;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 5px;
+    height: 30px;
+    width: 30px;
+    transition: all .3s ease-in-out;
+}
+.single-member .mem-social a:hover {
+    background-color: #ff817e;
+    border-color: #ff817e;
+    color: #fff;
+    transition: all .3s ease-in-out;
+  }
+.single-member:hover .member-info {
+    margin-top: -84px;
+  }
+  
+.single-member:hover .mem-social {
+    margin-top: 0;
+    opacity: 1;
+    visibility: visible;
+  }
+/* ================================== Experienced Team Area End Here ================================== */
+
+/* ================================== Appointment Area Start Here ================================== */
+#appointment {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.appointment-wrap {
+    display: flex;
+    background-color: #fff9f8;
+}
+figure {
+    margin: 0;
+}
+#appointment .appointment-wrap figure {
+    flex-basis: 40%;
+}
+.appointment-form {
+    flex-basis: 60%;
+    padding-left: 100px;
+}
+#appointment .appointment-wrap .appointment-form form {
+    max-width: 650px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.appointment-form .form-field {
+    position: relative;
+    width: 100%;
+}
+.appointment-form .form-field.half-width {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.appointment-form .form-field.half-width input,
+.appointment-form .form-field.half-width .select-field {
+    width: 49%;
+}
+.appointment-form .form-field.half-width .select-field select {
+    appearance: none;
+    text-transform: uppercase;
+}
+.appointment-form .form-field input, .appointment-form .form-field.half-width 
+.select-field select, .appointment-form .form-field textarea {
+    border-color: transparent;
+    border: none;
+    border-bottom: 1px solid #d4d3d3;
+    color: #999;
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 20px 0;
+    margin-bottom: 13px;
+    width: 100%;
+    background: none;
+}
+.appointment-form .form-field .select-field select:focus {
+    box-shadow: none !important;
+}
+.appointment-form .form-field input:focus-visible,
+.appointment-form .form-field .select-field select:focus-visible,
+.appointment-form .form-field textarea:focus-visible {
+    outline: none;
+    border-bottom: 1px solid var(--secondaryColor);
+}
+.form-btn {
+    border: 1px solid var(--secondaryColor);
+    background-color: var(--secondaryColor);
+    border-radius: 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0.8;
+    text-transform: uppercase;
+    min-width: 170px;
+    padding: 20px 30px;
+    letter-spacing: 0;
+}
+.form-btn:hover {
+    border: 1px solid var(--secondaryColor);
+    background-color: transparent;
+    color: var(--secondaryColor);
+    display: inline-block;
+}
+.btn-round {
+    border-radius: 50px;
+}
+/* ================================== Appointment Area End Here ================================== */
+
+/* ================================== Footer Area Start Here ================================== */
+#footer {
+    background-color: #fff9f8;
+    padding: 80px 0 60px;
+}
+.footer-logo {
+    display: block;
+    max-width: 109px;
+    margin: 0 auto;
+}
+.footer-logo img {
+    width: 100%;
+}
+.footer-nav {
+    position: relative;
+    margin: 30px 0;
+}
+.footer-nav ul {}
+.footer-nav ul li {
+    display: inline-block;
+}
+.footer-nav ul li a {
+    color: #263a41;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+.footer-social {
+    margin-bottom: 30px;
+}
+.footer-social a:first-child {
+    border-left: 1px solid #b1b4bb;
+}
+.footer-social a {
+    border-right: 1px solid #b1b4bb;
+    color: #3a414e;
+    display: inline-block;
+    font-size: 14px;
+    line-height: .8;
+    padding: 0 10px;
+}
+.copy-right {}
+.copy-right a {
+    color: var(--secondaryColor);
+}
+/* ================================== Footer Area End Here ================================== */

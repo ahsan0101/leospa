@@ -1,0 +1,443 @@
+/* // `xs` applies to x-small devices (portrait phones, less than 576px) */
+/* @media (max-width: 320px) {} */
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* Navbar */
+    .logo {
+        width: 75%;
+    }
+    .navbar-nav {
+        background: #ff817e;
+        border-radius: 20px;
+    }
+    .menu ul li {
+        border-radius: 20px;
+    }
+    .nav-link {
+        color: white;
+        text-transform: uppercase;
+    }
+    .menu ul li a {
+        padding-top: 15px !important;
+        padding-bottom: 15px;
+        padding-left: 15px !important;
+    }
+    .menu ul li:hover {
+        background-color: #4a16141a;
+    }
+    .menu ul li:hover a {
+        color: white;
+    }
+    /* Navbar */
+    /* Banner */
+    #banner {
+        background-size: 9.5%;
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+    .spa-img img {
+        display: none;
+    }
+    .banner-content {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .banner-content span {
+        padding-bottom: 10px;
+    }
+    .banner-content h1 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .banner-content p {
+        padding-bottom: 10px;
+        line-height: 16px;
+    }
+    .banner-btn {
+        display: block;
+    }
+    .banner-video {
+        margin-left: 0;
+        margin-top: 15px;
+        display: block;
+    }
+    /* Banner */
+    /* About */
+    #about {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .ab-flower-one {
+        position: absolute;
+        top: 0;
+        left: 0%;
+        zoom: .5;
+    }
+    .ab-flower-two {
+        right: 4%;
+        bottom: 8%;
+        zoom: .6;
+        transform: translate(-13%, 10%);
+    }
+    .main-title h1 {
+        font-size: 30px;
+    }
+    .ab-details {
+        width: 80%;
+    }
+    .ab-details p {
+        line-height: 20px;
+    }
+    /* About */
+    /* Procedures */
+    #procedures {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .post {
+        margin-bottom: 15px;
+    }
+    .pro-title h1 {
+        font-size: 30px;
+    }
+    /* Procedures */
+        /* Appointment */
+    figure {
+        display: none;
+    }
+    .appointment-form {
+        flex-basis: 100%;
+        padding: 15px 10px;
+        text-align: center;
+    }
+    #appointment .appointment-wrap .appointment-form form {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .appointment-form .form-field.half-width input, .appointment-form .form-field.half-width .select-field {
+        width: 100%;
+    }
+    /* Appointment */
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    /* Navbar */
+    .logo {
+        width: 75%;
+    }
+    .navbar-nav {
+        background: #ff817e;
+        border-radius: 20px;
+    }
+    .menu ul li {
+        border-radius: 20px;
+    }
+    .nav-link {
+        color: white;
+        text-transform: uppercase;
+    }
+    .menu ul li a {
+        padding-top: 15px !important;
+        padding-bottom: 15px;
+        padding-left: 15px !important;
+    }
+    .menu ul li:hover {
+        background-color: #4a16141a;
+    }
+    .menu ul li:hover a {
+        color: white;
+    }
+    /* Navbar */
+    /* Banner */
+    #banner {
+        background-size: 9.5%;
+        padding-bottom: 20px;
+    }
+    .spa-img img {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        opacity: .5;
+    }
+    .banner-content {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .banner-content span {
+        padding-bottom: 10px;
+    }
+    .banner-content h1 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .banner-content p {
+        padding-bottom: 10px;
+        line-height: 25px;
+    }
+    .banner-btn {
+        display: block;
+    }
+    .banner-video {
+        margin-left: 0;
+        margin-top: 15px;
+        display: block;
+    }
+    /* Banner */
+     /* About */
+     #about {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .ab-flower-one {
+        position: absolute;
+        top: 0;
+        left: 10%;
+        zoom: 0.7;
+        transform: translate(10%, 10%);
+    }
+    .ab-flower-two {
+        right: 4%;
+        bottom: 8%;
+        zoom: 1;
+        transform: translate(-50%, 10%);
+    }
+    .main-title h1 {
+        font-size: 30px;
+    }
+    .ab-details {
+        width: 100%;
+    }
+    .ab-details p {
+        line-height: 20px;
+    }
+    /* About */
+    /* Procedures */
+    #procedures {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .post {
+        margin-bottom: 15px;
+    }
+    /* Procedures */
+    /* Appointment */
+    figure {
+        display: none;
+    }
+    .appointment-form {
+        flex-basis: 100%;
+        padding: 15px 10px;
+        text-align: center;
+    }
+    #appointment .appointment-wrap .appointment-form form {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .appointment-form .form-field.half-width input, .appointment-form .form-field.half-width .select-field {
+        width: 100%;
+    }
+    /* Appointment */   
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-nav {
+        background: #ff817e;
+        border-radius: 20px;
+    }
+    .menu ul li {
+        border-radius: 20px;
+    }
+    .nav-link {
+        color: white;
+        text-transform: uppercase;
+    }
+    .menu ul li a {
+        padding-top: 15px !important;
+        padding-bottom: 15px;
+        padding-left: 15px !important;
+    }
+    .menu ul li:hover {
+        background-color: #4a16141a;
+    }
+    .menu ul li:hover a {
+        color: white;
+    }
+    /* Banner */
+    #banner {
+        padding-top: 110px;
+        padding-bottom: 50px;
+        background-image: none;
+    }
+    .spa-img {
+        transform: translate(0%, 0%);
+        width: 44%;
+        max-height: 400px;
+        overflow: hidden;
+    }
+    .banner-content span {
+        padding-bottom: 10px;
+    }
+    .banner-content h1 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .banner-content p {
+        padding-bottom: 10px;
+        line-height: 25px;
+    }
+    .banner-btn {
+        letter-spacing: 0.5px;
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+    /* Banner */
+    /* About */
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .ab-flower-one {
+        position: absolute;
+        top: 0;
+        left: 10%;
+        zoom: 0.7;
+        transform: translate(10%, 10%);
+    }
+    .ab-flower-two {
+        right: 4%;
+        bottom: 8%;
+        zoom: 1;
+        transform: translate(-50%, 10%);
+    }
+    .main-title h1 {
+        font-size: 30px;
+    }
+    .ab-details {
+        width: 100%;
+    }
+    .ab-details p {
+        line-height: 20px;
+    }
+    /* About */
+    /* procedures Carousel */
+    #procedures {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .post p {
+        line-height: 20px;
+    }
+    .post-btn {
+        padding: 10px 22px;
+    }
+    /* procedures Carousel */
+    
+    /* Team Member */
+    .member-info {
+        background-color: #fff;
+        -webkit-box-shadow: 0 5px 20px #f0f0f0;
+        box-shadow: 0 5px 20px #f0f0f0;
+        max-width: calc( 100% - 15px);
+        margin: -50px auto 0;
+        padding: 20px 1px;
+        position: relative;
+        text-align: center;
+        -webkit-transition: all 300ms ease-in-out;
+        -o-transition: all 300ms ease-in-out;
+        transition: all 300ms ease-in-out;
+        z-index: 1;
+    }
+    /* Team Member */
+
+    /* Appointment */
+    figure {
+        display: none;
+    }
+    .appointment-form {
+        flex-basis: 100%;
+        padding: 15px 85px;
+        text-align: center;
+    }
+    #appointment .appointment-wrap .appointment-form form {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    /* Appointment */
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    /* Banner */
+    #banner {
+        padding-top: 110px;
+        padding-bottom: 50px;
+    }
+    .spa-img {
+        transform: translate(0%, 0%);
+        width: 35%;
+        max-height: 400px;
+        overflow: hidden;
+    }
+    .banner-content span {
+        padding-bottom: 10px;
+    }
+    .banner-content h1 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .banner-content p {
+        padding-bottom: 10px;
+        line-height: 25px;
+    }
+    .banner-btn {
+        letter-spacing: 1.5px;
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    /* Banner */
+    /* Appointment */
+    #appointment .appointment-wrap figure {
+        flex-basis: 50%;
+    }
+    .appointment-form {
+        flex-basis: 50%;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .appointment-form .form-field input, .appointment-form .form-field.half-width 
+    .select-field select, .appointment-form .form-field textarea {
+    padding: 12px 0;
+    }
+    /* Appointment */
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+    #banner {
+        padding-top: 110px;
+        padding-bottom: 50px;
+    }
+    /* Appointment */
+    #appointment .appointment-wrap figure {
+        flex-basis: 50%;
+    }
+    .appointment-form {
+        flex-basis: 50%;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .appointment-form .form-field input, .appointment-form .form-field.half-width 
+    .select-field select, .appointment-form .form-field textarea {
+    padding: 12px 0;
+    }
+    /* Appointment */
+}
