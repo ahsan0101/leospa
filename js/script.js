@@ -22,22 +22,26 @@ Fancybox.bind("[data-fancybox]", {
     loop:true,
     margin:10,
     autoplay:true,
-    autoplayTimeout:1000,
+    autoplayTimeout:5000,
     autoplayHoverPause:true,
     responsiveClass:true,
     responsive:{
         0:{
             items:1,
-            nav:true
+            nav:false,
+            dots:false
         },
         600:{
             items:3,
-            nav:false
+            nav:false,
+            dots:false
         },
         1000:{
             items:4,
-            nav:true,
-            loop:false
+            nav:false,
+            dots:false,
+            loop:false,
+            autoplayTimeout:5000
         }
     }
 });
